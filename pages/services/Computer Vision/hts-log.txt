@@ -1,0 +1,23 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 07 Jul 2024 20:05:00 at https://templates.iqonic.design/vizion/computer-vizion/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://templates.iqonic.design/vizion/computer-vizion/index.html -O1 "C:\Users\varun\Documents\Website Cloner\My AI Website 3" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:05:27	Warning: 	File not parsed, looks like binary: https://templates.iqonic.design/vizion/computer-vizion/video/01.m4v
+20:05:27	Error: 	"Not Found" (404) at link https://templates.iqonic.design/vizion/computer-vizion/images/about/08.jpg (from https://templates.iqonic.design/vizion/computer-vizion/index.html)
+20:05:34	Error: 	"Not Found" (404) at link https://templates.iqonic.design/vizion/computer-vizion/images/blog/01.png (from https://templates.iqonic.design/vizion/computer-vizion/css/style.css)
+20:05:34	Error: 	"Not Found" (404) at link https://templates.iqonic.design/vizion/computer-vizion/js/main.js (from https://templates.iqonic.design/vizion/computer-vizion/404-error.html)
+20:05:34	Error: 	"Not Found" (404) at link https://templates.iqonic.design/vizion/computer-vizion/js/retina.min.js (from https://templates.iqonic.design/vizion/computer-vizion/404-error.html)
+20:05:35	Error: 	"Not Found" (404) at link https://templates.iqonic.design/vizion/computer-vizion/css/owl.video.play.png (from https://templates.iqonic.design/vizion/computer-vizion/css/owl.carousel.css)
+20:05:35	Error: 	"Not Found" (404) at link https://templates.iqonic.design/vizion/computer-vizion/css/ajax-loader.gif (from https://templates.iqonic.design/vizion/computer-vizion/css/slick-theme.css)
+20:05:35	Error: 	"Not Found" (404) at link https://templates.iqonic.design/vizion/computer-vizion/css/fonts/slick.eot (from https://templates.iqonic.design/vizion/computer-vizion/css/slick-theme.css)
+20:05:35	Error: 	"Not Found" (404) at link https://templates.iqonic.design/vizion/computer-vizion/css/fonts/slick.eot? (from https://templates.iqonic.design/vizion/computer-vizion/css/slick-theme.css)
+20:05:35	Error: 	"Not Found" (404) at link https://templates.iqonic.design/vizion/computer-vizion/css/fonts/slick.woff (from https://templates.iqonic.design/vizion/computer-vizion/css/slick-theme.css)
+20:05:35	Error: 	"Not Found" (404) at link https://templates.iqonic.design/vizion/computer-vizion/css/fonts/slick.ttf (from https://templates.iqonic.design/vizion/computer-vizion/css/slick-theme.css)
+20:05:35	Error: 	"Not Found" (404) at link https://templates.iqonic.design/vizion/computer-vizion/css/fonts/slick.svg (from https://templates.iqonic.design/vizion/computer-vizion/css/slick-theme.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 35 seconds : 136 links scanned, 124 files written (7245395 bytes overall) [6418939 bytes received at 183398 bytes/sec], 1092074 bytes transferred using HTTP compression in 35 files, ratio 20%, 27.2 requests per connection
+(11 errors, 1 warnings, 0 messages)

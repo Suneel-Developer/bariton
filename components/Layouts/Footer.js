@@ -68,22 +68,22 @@ const Footer = () => {
 
                 <ul className="footer-services-list">
                   <li>
-                    <Link href="/services/details"> Computer Vision</Link>
+                    <Link href="/computer-vizion.html"> Computer Vision</Link>
                   </li>
                   <li>
-                    <Link href="/services/details">Data Analysis</Link>
+                    <Link href="/data-analysis.html">Data Analysis</Link>
                   </li>
                   <li>
-                    <Link href="/services/details">Generative AI</Link>
+                    <Link href="/finance.html">Finance</Link>
                   </li>
                   <li>
-                    <Link href="/services/details">Marketing</Link>
+                    <Link href="/digital-marketing.html">Marketing</Link>
                   </li>
                   <li>
-                    <Link href="/services/details">Natural Language Processing</Link>
+                    <Link href="/processing.html">Natural Language Processing</Link>
                   </li>
                   <li>
-                    <Link href="/services/details">Security</Link>
+                    <Link href="/security.html">Security</Link>
                   </li>
                 </ul>
               </div>

@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 
-const NavbarSix = () => {
+const Navbar = () => {
   // Add active class
   const [currentPath, setCurrentPath] = useState("");
   const router = useRouter();
@@ -34,12 +34,6 @@ const NavbarSix = () => {
   const classTwo = menu
     ? "navbar-toggler navbar-toggler-right collapsed"
     : "navbar-toggler navbar-toggler-right";
-
-  // Search Modal
-  const [isActiveSearchModal, setActiveSearchModal] = useState("false");
-  const handleToggleSearchModal = () => {
-    setActiveSearchModal(!isActiveSearchModal);
-  };
 
   return (
     <>
@@ -157,9 +151,9 @@ const NavbarSix = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="#"
+                          href="/computer-vizion.html"
                           className={`nav-link ${
-                            currentPath == "/services/computer-vision/" && "active"
+                            currentPath == "/computer-vizion.html" && "active"
                           }`}
                         >
                           Computer Vision
@@ -168,9 +162,9 @@ const NavbarSix = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="#"
+                          href="/data-analysis.html"
                           className={`nav-link ${
-                            currentPath == "/services/two/" && "active"
+                            currentPath == "/data-analysis.html" && "active"
                           }`}
                         >
                           Data Analysis
@@ -179,7 +173,7 @@ const NavbarSix = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="#"
+                          href="/finance.html"
                           rel="noopener noreferrer"
                           className={`nav-link ${
                             currentPath == "/services/finance.html/" && "active"
@@ -191,9 +185,9 @@ const NavbarSix = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="#"
+                          href="/digital-marketing.html"
                           className={`nav-link ${
-                            currentPath == "/services/four/" && "active"
+                            currentPath == "/digital-marketing.html" && "active"
                           }`}
                         >
                           Marketing
@@ -202,7 +196,7 @@ const NavbarSix = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="#"
+                          href="/processing.html"
                           className={`nav-link ${
                             currentPath == "/services/details/" && "active"
                           }`}
@@ -213,7 +207,7 @@ const NavbarSix = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="#"
+                          href="/security.html"
                           className={`nav-link ${
                             currentPath == "/services/security/" && "active"
                           }`}
@@ -317,13 +311,6 @@ const NavbarSix = () => {
 
                 {/* others-options */}
                 <div className="others-options">
-  
-                  <div className="option-item">
-                    <i
-                      className="search-btn flaticon-search"
-                      onClick={handleToggleSearchModal}
-                    ></i>
-                  </div>
 
                   <Link href="/contact" className="btn btn-primary">
                     Schedule a Demo
@@ -334,45 +321,8 @@ const NavbarSix = () => {
           </div>
         </div>
       </div>
-
-      {/* Search Form */}
-      <div
-        className={`search-overlay ${
-          isActiveSearchModal ? "" : "search-overlay-active"
-        }`}
-      >
-        <div className="d-table">
-          <div className="d-table-cell">
-            <div className="search-overlay-layer"></div>
-            <div className="search-overlay-layer"></div>
-            <div className="search-overlay-layer"></div>
-
-            <div
-              className="search-overlay-close"
-              onClick={handleToggleSearchModal}
-            >
-              <span className="search-overlay-close-line"></span>
-              <span className="search-overlay-close-line"></span>
-            </div>
-
-            <div className="search-overlay-form">
-              <form>
-                <input
-                  type="text"
-                  className="input-search"
-                  placeholder="Search here..."
-                />
-                <button type="submit">
-                  <i className="fa fa-search"></i>
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* End Search Form */}
     </>
   );
 };
 
-export default NavbarSix;
+export default Navbar;
