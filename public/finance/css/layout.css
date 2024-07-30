@@ -16,9 +16,7 @@ li{
     padding-right: 20px;
     padding-left: 20px;
     font-family: "Dosis", sans-serif;
-    max-width: 1720px;
-    margin: 0 auto;
-    width: 100%;
+    
 }
 
 .main-nav .navbar {
@@ -26,6 +24,9 @@ li{
     padding-top: 0;
     padding-left: 0;
     padding-bottom: 0;
+    max-width: 1720px;
+    margin: 0 auto;
+    width: 100%;
 }
 .navbar-nav .nav-link.active {
     color: #ff4800;
