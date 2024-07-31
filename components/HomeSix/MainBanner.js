@@ -28,7 +28,7 @@ const DomainSearch = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
 
-            <ul
+            {/* <ul
               className="banner-btn"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -45,7 +45,7 @@ const DomainSearch = () => {
                   Watch Intro Video
                 </div>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
 

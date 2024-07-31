@@ -52,6 +52,11 @@ List Style
 .list-style li i { margin-right: 10px; font-size: 18px; }
 .easy-btn { padding: 10px 70px; }
 
+
+.tparrows {
+  display: none;
+}
+
 /*---------------------------------------------------------------------
 3 Features 
 ---------------------------------------------------------------------*/

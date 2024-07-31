@@ -34,11 +34,9 @@ const TopFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/services/details">Robotic Automation</Link>
+                  <Link href="/services/details">Artificial Intelligence</Link>
                 </h3>
-                <Link href="/services/details" className="learn-btn">
-                  Learn More
-                </Link>
+
               </div>
             </div>
 
@@ -53,11 +51,9 @@ const TopFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <a href="single-services.html">Machine Learning</a>
+                  <a href="single-services.html">Machine <br/> Learning</a>
                 </h3>
-                <Link href="/services/details" className="learn-btn">
-                  Learn More
-                </Link>
+
               </div>
             </div>
 
@@ -74,9 +70,7 @@ const TopFeaturedSolutions = () => {
                 <h3>
                   <Link href="/services/details">Cognitive Engagement</Link>
                 </h3>
-                <Link href="/services/details" className="learn-btn">
-                  Learn More
-                </Link>
+
               </div>
             </div>
           </div>

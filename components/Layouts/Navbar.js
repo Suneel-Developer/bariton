@@ -73,77 +73,30 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="/"
-                      className={`nav-link ${
-                        currentPath == "/" && "active"
-                      }`}
+                      className={`nav-link ${currentPath == "/" && "active"
+                        }`}
                     >
                       Home
                     </Link>
 
-                  
+
                   </li>
 
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      className="nav-link"
-                      onClick={(e) => e.preventDefault()}
+                      href="/about-us/"
+                      className={`nav-link ${currentPath == "/about-us/" && "active"
+                        }`}
                     >
-                      Pages <i className="fas fa-chevron-down"></i>
+                      About Us
                     </Link>
 
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/about-us/"
-                          className={`nav-link ${
-                            currentPath == "/about-us/" && "active"
-                          }`}
-                        >
-                          About Us
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/partner/"
-                          className={`nav-link ${
-                            currentPath == "/partner/" && "active"
-                          }`}
-                        >
-                          Partner
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/faq/"
-                          className={`nav-link ${
-                            currentPath == "/faq/" && "active"
-                          }`}
-                        >
-                          Faq
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/coming-soon/"
-                          className={`nav-link ${
-                            currentPath == "/coming-soon/" && "active"
-                          }`}
-                        >
-                          Coming Soon
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
 
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      className="nav-link"
-                      onClick={(e) => e.preventDefault()}
+                      href="/services/"
+                      className={`nav-link ${currentPath.startsWith('/services/') ? 'active' : ''}`}
                     >
                       Services <i className="fas fa-chevron-down"></i>
                     </Link>
@@ -152,9 +105,7 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/computer-vizion.html"
-                          className={`nav-link ${
-                            currentPath == "/computer-vizion.html" && "active"
-                          }`}
+                          className={`nav-link ${currentPath === "/computer-vizion.html" ? 'active' : ''}`}
                         >
                           Computer Vision
                         </Link>
@@ -163,9 +114,7 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/data-analysis.html"
-                          className={`nav-link ${
-                            currentPath == "/data-analysis.html" && "active"
-                          }`}
+                          className={`nav-link ${currentPath === "/data-analysis.html" ? 'active' : ''}`}
                         >
                           Data Analysis
                         </Link>
@@ -174,10 +123,7 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/finance.html"
-                          rel="noopener noreferrer"
-                          className={`nav-link ${
-                            currentPath == "/services/finance.html/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath === "/services/finance.html" ? 'active' : ''}`}
                         >
                           Finance
                         </Link>
@@ -186,9 +132,7 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/digital-marketing.html"
-                          className={`nav-link ${
-                            currentPath == "/digital-marketing.html" && "active"
-                          }`}
+                          className={`nav-link ${currentPath === "/digital-marketing.html" ? 'active' : ''}`}
                         >
                           Marketing
                         </Link>
@@ -196,10 +140,7 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/processing.html"
-                          className={`nav-link ${
-                            currentPath == "/services/details/" && "active"
-                          }`}
+                          href="/nlp.html"
                         >
                           Natural Language Processing
                         </Link>
@@ -208,101 +149,38 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/security.html"
-                          className={`nav-link ${
-                            currentPath == "/services/security/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath === "/services/security/" ? 'active' : ''}`}
                         >
                           Security
                         </Link>
                       </li>
                     </ul>
                   </li>
-
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      className="nav-link"
-                      onClick={(e) => e.preventDefault()}
+                      href="/projects/"
+                      className={`nav-link ${currentPath == "/projects/" && "active"
+                        }`}
                     >
-                      Projects <i className="fas fa-chevron-down"></i>
+                      Projects
                     </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/projects/"
-                          className={`nav-link ${
-                            currentPath == "/projects/" && "active"
-                          }`}
-                        >
-                          Projects
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/projects/details/"
-                          className={`nav-link ${
-                            currentPath == "/projects/details/" && "active"
-                          }`}
-                        >
-                          Projects Details
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
 
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      className="nav-link"
-                      onClick={(e) => e.preventDefault()}
+                      href="/blog/"
+                      className={`nav-link ${currentPath == "/blog/" && "active"
+                        }`}
                     >
-                      Blog <i className="fas fa-chevron-down"></i>
+                      Blog
                     </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/blog/"
-                          className={`nav-link ${
-                            currentPath == "/blog/" && "active"
-                          }`}
-                        >
-                          Blog Grid
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/blog/2/"
-                          className={`nav-link ${
-                            currentPath == "/blog/2/" && "active"
-                          }`}
-                        >
-                          Blog Right Sidebar
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/blog/details/"
-                          className={`nav-link ${
-                            currentPath == "/blog/details/" && "active"
-                          }`}
-                        >
-                          Blog Details
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
 
                   <li className="nav-item">
                     <Link
                       href="/contact/"
-                      className={`nav-link ${
-                        currentPath == "/contact/" && "active"
-                      }`}
+                      className={`nav-link ${currentPath == "/contact/" && "active"
+                        }`}
                     >
                       Contact
                     </Link>

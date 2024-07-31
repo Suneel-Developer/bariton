@@ -160,7 +160,7 @@ const Services = () => {
 
             <div className="col-lg-12 col-md-12">
               <div className="ai-all-services-btn">
-                <Link href="/services" className="btn btn-primary">
+                <Link href="/services/" className="btn btn-primary">
                   View All Services
                 </Link>
               </div>
